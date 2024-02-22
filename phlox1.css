@@ -1,0 +1,353 @@
+*{ 
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    width: 100%;
+    display: flex;
+    height: 120px;
+    align-items: center;
+    justify-content:space-between;
+} 
+.logo{
+    margin-left: 30px;
+}
+.logo img{
+    width: 100%;
+    height: inherit;
+}
+nav a{
+  padding-right: 40px;
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  font-size: 15px;
+  padding: 30px;
+  /* margin-top: 33px; */
+}
+.main1{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 50px;
+}
+.main1 .left{
+    width: 49%;
+    padding: 15px;
+}
+.left h1{
+    font-size: 60px;
+    font-weight: 800;
+}
+.left p{
+    margin-top: 25px;
+   font-size: 20px;
+
+}
+.left button{
+    padding: 23px 65px;
+    border-radius: 45px;
+    margin-top: 60px;
+    color: white;
+    font-size: 18px;
+    background-color: rgb(56 95 150);
+    border-style: none;
+}
+.main1 .right{
+    width: 49%;
+    padding: 15px;
+}
+.right img{
+    width: 100%;
+    height: inherit;
+}
+.main2{
+    width: 100%;
+    display: flex;
+    padding: 50px;
+    /* padding-left: 5px; */
+
+}
+.main2 .photo{
+    width: 49%;
+
+}
+.photo img{
+    width: 100%;
+    height: inherit;
+}
+.content{
+    width: 49%;
+    padding-right: 80px;
+    margin-left: 30px;
+    /* padding-left: 0px; */
+}
+.content h2{
+    font-size: 50px;
+}
+.content p{
+    margin-top: 15px;
+    font-size: 20px;
+    padding-left: 13px;
+    margin-top: 35px;
+    margin-bottom: 25px;
+}
+.content img{
+    width: 33%;
+    padding: 28px;
+    padding-left: 30px;
+    height: inherit;
+}
+.main3{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    margin-top: 220px;
+}
+.main3 .lt{
+    width: 51%;
+    padding: 20px;
+}
+.lt h1{
+    font-size: 48px;
+    font-weight: 800;
+}
+.lt p{
+    margin-top: 25px;
+   font-size: 20px;
+
+}
+.lt button{
+    padding: 23px 65px;
+    border-radius: 45px;
+    margin-top: 60px;
+    color: white;
+    font-size: 18px;
+    background-color: rgb(56 95 150);
+    border-style: none;
+}
+.main1 .rt{
+    width: 49%;
+    padding: 15px;
+}
+.rt img{
+    width: 100%;
+    height: inherit;
+}
+.main4{
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    padding-left: 432px;
+    margin-top: 100px;
+    
+}
+.main4 h1{
+    font-size: 48px;
+    padding: 5px;
+}
+.option{
+    width: 100%;
+    /* justify-content: center; */
+    margin-top: 60px;
+    margin-bottom: 70px;
+    padding-left: 300px;
+    
+}
+.option span{
+    /* justify-content: space-between; */
+    padding: 20px;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* margin-top: 30px; */
+}
+.main5{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    height: inherit;
+    padding-top: 15px;
+    padding-left:70px ;
+    /* margin-bottom: 5px; */
+    
+    
+}
+.main5 img{
+    width:90%;
+    height: inherit;
+    border-style:unset;
+    border-radius: 10px;
+
+    /* justify-content: space-evenly; */
+    /* padding-left: 30px; */
+    /* justify-content: space-between; */
+}
+.main6{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    height: inherit;
+    padding-top: 15px;
+    padding-left:70px ;
+    /* margin-bottom: 3px; */
+    
+    
+}
+.main6 img{
+    width:90%;
+    height: inherit;
+    border-style:none;
+    border-radius: 10px;
+    /* justify-content: space-evenly; */
+    /* padding-left: 30px; */
+    /* justify-content: space-between; */
+}
+.main7{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    height: inherit;
+    padding-top: 15px;
+    padding-left:70px ;
+    margin-bottom: 5px;
+    /* border-radius: 40px; */
+    
+    
+    
+}
+.main7 img{
+    width:90%;
+    height: inherit;
+    border-style:unset;
+     border-radius: 10px;
+    /* justify-content: space-evenly; */
+    /* padding-left: 30px; */
+    /* justify-content: space-between; */
+}
+.b1{
+    width: 100%;
+    padding-left: 620px;
+    margin-bottom:25px ;
+}
+.b1 button{
+    padding: 23px 65px;
+    border-radius: 45px;
+    /* justify-content: center; */
+    margin-top: 60px;
+    color: white;
+    font-size: 18px;
+    background-color: rgb(56 95 150);
+    border-style: none;
+    
+}
+.main8{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    align-items: center;
+    background-color: #dcf4f8;
+  
+}
+.main8 .photo{
+    width: 49%;
+}
+.photo img{
+    width: 100%;
+    height: inherit;
+}
+.content1 {
+      width: 49%;
+}
+.content1 h1{
+    font-size: 50px;
+
+}
+.d1 button{
+    padding: 23px 65px;
+    border-radius: 45px;
+    margin-top: 60px;
+    color: white;
+    font-size: 18px;
+    background-color: rgb(56 95 150);
+    border-style: none;
+}
+.f1{
+    width: 100%;
+    height: 30vh;
+    background-color: rgb(56 95 150);
+}
+footer{
+    width: 100%;
+    display: flex;
+    height: 90px;
+    align-items: center;
+    justify-content: space-around;
+}
+.meu a{
+    padding-right: 80px;
+    text-decoration: none;
+    color:white;
+    font-weight: 500;
+    font-size: 15px;
+    padding: 18px;
+    margin-bottom: 200px;
+    /* margin-bottom: 100px; */
+
+    /* align-items: cen
+    ter; */
+    /* margin-left: px; */
+    
+}
+.cotact a{
+    padding-left: 10px;
+    color: white;
+    text-decoration: none;
+
+}
+.icon{
+    width: 20%;
+    border-radius: 25px;
+    display: flex;
+    margin: 0% auto;
+    padding: 20px 35px;
+    background-color: #2e4f7e;
+    justify-content: center;
+    
+}
+.icon i{
+    padding: 0px 15px;
+    font-size: 20px;
+    color: white;
+}
+.s1{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    margin-top: 30px;
+    align-items: center;
+    justify-content: center;
+    background-color:#2e4f7e;
+    
+
+}
+.s1 p{
+    color: white;
+}
+@media screen and (max-width:960px) {
+    .content {
+        width: 50%;
+        margin-top: 10px;
+    }
+    
+}
+@media screen and (max-width:680px) {
+    .main2{
+        width: 70%;
+        margin-top: 10px;
+    }
+}
